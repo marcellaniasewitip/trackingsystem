@@ -1,0 +1,119 @@
+
+        body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+/*.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}*/
+
+.login-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.login-form h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.input-icon {
+    background-color: #f8f8f8;
+    padding: 10px;
+    color: #333;
+}
+
+.form-control {
+    flex: 1;
+    border: none;
+    padding: 10px;
+}
+
+.btn {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #218838;
+}
+/* Add your other CSS styles here */
+
+/*body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; /* Background color for the entire page */
+/*}
+*/
+
+.container {
+    text-align: center;
+}
+
+/*.login-box {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}*/
+
+.login-form img {
+    max-width: 40%; /* Ensure the image does not exceed the container's width */
+    margin-bottom: 5px; /* Spacing between image and form */
+    border-radius: 50%;
+    border: 1px solid #ddd;    
+    padding: 5px;
+}
+ /* Style for the login form container */
+.login-container {
+    position: fixed;
+    top: 25%;
+    left: 40%;
+    width: 100%;
+    height: 100%;
+    /*background-color: rgba(0, 0, 0, 0.7);*/
+    z-index: 1;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+/* Style for the login form */
+.login-form {
+    background-color: #4c5b5e;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 300px; /* Limit the form width */
+    width: 50%; /* Ensure it's responsive */
+    justify-content: center;
+   
+}
+
